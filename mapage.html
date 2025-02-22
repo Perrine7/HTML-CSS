@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Description de la page">
+    <meta name="keywords" content="mot-clé1, mot clé2">
+    <meta name="author" content="Auteur">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="mapage.css">
+    <title>Ma première page HTML</title>-
+</head>
+<body>
+    <header> <!--En-tête-->
+        <nav> <!--Navigation-->
+        <ul>
+            <li><a href="home.html">HOME</a></li><!--Lien HTML-->
+            <li>PRESENTATION</li>
+            <li>A PROPOS</li>
+            <li>CONTACT</li>
+        </ul>    
+        </nav>
+    </header>
+    <section id="presentation"></section><!--Une parte de la page-->            <!--ID doit être unique/class= autant qu'on veut(pour appliquer CSS)-->
+    <section id="cv"></section>
+    <section id="skills"></section>
+    <article>Contenu autonome</article>
+    <aside>contenu annexe</aside>
+   <main> <!--Contenu principal-->
+        <!--Les textes-->
+        <p class="mon_texte">Premier Paragraphe</p>
+        <strong>Texte important</strong>
+        <em>Texte emphatique</em>
+        <mark>Texte surligné</mark>
+        <blockquote>Citation</blockquote>
+        <pre>Texte préformaté</pre>
+        <code>Code informatique</code>
+
+        <!--Les médias et les liens-->
+        <a href="url"></a> <!--Lien Hypertexte-->
+        <img src="imag.jpg" alt="image église"> <!--Image-->
+        <video src="video.mp4"></video><!--Video-->
+        <audio src="audio.mp3"></audio><!--Audio-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d329253.5501873717!2d1.7915871440926516!3d49.85573377762326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d49.8794496!2d1.9431424!4m5!1s0x47e7844691caf163%3A0xeb4f9c148f74d1f3!2s25%20Rue%20Emile%20Zola%2C%2080000%20Amiens!3m2!1d49.8890637!2d2.2996675!5e0!3m2!1sfr!2sfr!4v1740134038285!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" frameborder="0"></iframe><!--Carte ou contenu embarqué-->
+
+
+        <h1>Perrine STURBOIS</h1>
+        <h4>Développeuse Web</h4>
+        <p>J'apprends différents langages de programmation dont <strong>HTML & CSS</strong></p>
+        
+        <!--Les Titres-->
+        <h2>Titre</h2>
+        <h3>Titre</h3>
+        <h5>Titre</h5>
+        <h6>Titre</h6>
+
+        <!--Les Listes-->
+       <ul><li>Liste non-ordonnées</li></ul>
+        <ol><li>Liste ordonnée</li></ol>
+        <dl>
+            <dt>Terme</dt>
+            <dd>Définition</dd>
+            <dt>Terme</dt>
+            <dd>Définition</dd>
+        </dl>
+
+<!--Les Formulaires-->
+        <form action="" method="post">
+            <label for="name" aria-label="" role="">Nom</label> <!--Aria pour personnes en situation de handicap-->
+            <input type="text" id="nom" name="nom" required><input>
+            
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Mot de Passe">
+            <input type="number" min="0" max="100">
+            <input type="date">
+            <input type="file">
+            <input type="checkbox">
+            <input type="radio">
+
+            <select>
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+            </select>
+
+            <textarea raws="4" cols="50"></textarea>
+
+            <button type="submit">Envoyer</button>
+
+        </form>
+<!--Les Tableaux-->
+        <table>
+            <thead>
+                <tr>
+                    <th>En tête</th>
+                    <th>En tête</th>
+                    <th>En tête</th>
+                    <th>En tête</th>
+                    <th>En tête</th>
+                </tr>
+      
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cellule</td>
+                </tr>
+                <tr>
+                    <td>Cellule</td>
+                </tr>
+                <tr>
+                    <td>Cellule</td>
+                </tr>
+                <tr>
+                    <td>Cellule</td>
+                </tr>
+            </tbody>
+        </table>
+
+   </main>
+   <footer>
+    
+   </footer>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cheatsheet_css.css">
+    <title>Cours CSS</title>
+</head>
+<body>
+    # CSS3 Cheatsheet
+    ## Sélecteurs
+
+### Théorie
+```css
+.classe                 /* Sélectionne par classe */
+#id                     /* Sélectionne par Id */
+element                 /* Sélectionne par type d'élément */
+element.classe          /* Element avec une classe spécifique */
+element#id              /* Element avec un Id spécifique */ 
+*                       /* Sélecteur universel */
+
+## Flexbox 
+
+### Théorie 
+display: flex; 
+flex-direction: row | column | row-reverse | column-reverse;
+justify-content: flex-start | flex-end | center | space-between | space-around;
+align-items: flex-start | flex-end | center |baseline | stretch;
+flex-wrap: nowrap | wrap | wrap-reverse;
+flex: 1;        /* grow | shrink |basis */
+
+## Grid
+
+### Théorie 
+```css 
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 20px;
+
+## Box Model
+
+### Théorie
+```css 
+margin: 10px;
+padding: 10px;
+border: 1px solid black;
+
+## Animation
+
+### Théorie
+```css 
+@keyframes nomAnimation {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+## Variables CSS3
+
+### Théorie
+```css 
+:root {
+    --couleur principale: #007bff;
+}
+
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+.mon_texte{
+    color: rgb(16, 139, 33);
+    font-size: 24px;
+    font-family: fantasy;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    list-style: none;
+}
+h4{
+    color: rgb(114, 22, 53);
+}
+
+h1{
+    color: rgb(32, 179, 130);
+}
+
+#presentation{
+    background-color: rgb(161, 192, 233);
+    height: 300px;
+    width: 100%;
+}
